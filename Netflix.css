@@ -1,0 +1,411 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+    background-image: url(./image/netflix.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: black;
+}
+#left > img{
+    width: 13rem;
+    height: 10rem;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+nav > #left{
+    margin-left: 15%;
+}
+#right{
+    margin-right: 17%;
+    
+}
+#lang{
+    margin: 2rem;
+    padding: 15px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    padding-left: 40px;
+}
+option{
+    color: black;
+}
+nav > #right > a > button{
+    background-color: red;
+    font-size: 20px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: white;
+}
+.fa-language{
+    position: absolute;
+    top: 12%;
+    right: 34%;
+    font-size: 19px;
+    color: white;
+}
+#netflix{
+    text-align: center;
+    color: white;
+    margin-top: 3rem;
+}
+#netflix > h1{
+    font-size: 3.4rem;
+    margin-bottom: 0px;
+}
+#netflix > p{
+    font-size: 1.3rem;
+}
+#netflix > input{
+    width: 31rem;
+    height: 3rem;
+    border-radius: 5px;
+    border: 2px solid gray;
+    background-color: transparent;
+    color: white;
+    font-size: 1.5rem;
+    padding-left: 2rem;
+}
+input::placeholder{
+    color: white;
+}
+#netflix > button{
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 9rem;
+    height: 3.5rem;
+    background-color: red;
+    color: white;
+    font-size: 1.1rem;
+}
+#tv{
+    /* background-color: darkkhaki; */
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#enjoy{
+    /* background-color: yellow; */
+    width: 48%;
+    color: white;
+}
+#tv-video{
+    /* background-color: coral; */
+    width: 48%;
+    position: relative;
+}
+#enjoy > h2{
+    font-size: 2.5rem;
+}
+#enjoy > P{
+    font-size: 1.6rem;
+}
+#tv-video>img{
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+#tv-video>video{
+    position: absolute;
+    left: 13.1%;
+    top: 20.7%;
+    width: 73%;
+    z-index: 1;
+}
+hr{
+    height: 5px;
+    background-color: grey;
+    border: none;
+    margin-top: 10.9rem;
+}
+/* Download Section */
+
+#download{
+    background-color:black;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 7rem;
+    margin-bottom: 3rem;
+    padding: 0rem 5rem;
+}
+
+#offline{
+    width: 48%;
+}
+
+#offline>h2{
+    font-size: 3.1rem;
+    padding-left: 8px;
+    color: whitesmoke;
+}
+
+#offline>p{
+    font-size: 1rem;
+    padding-left: 15px;
+    color: whitesmoke;
+}
+
+#mobile{
+    padding-right: 22rem;
+    width: 30%;
+    position: relative;
+}
+
+#vid{
+    position: relative;
+}
+
+
+#vid{
+    border: 2px solid #56656d;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    position: absolute;
+    top: 350px;
+    left: 134px;
+    background-color: black;
+    padding-bottom:0;
+}
+
+#vid>#div1>img{
+    width: 4rem;
+    height: 5rem;
+    padding: 10px;
+    padding-bottom: 0;
+}
+
+#vid>#div2{
+    display: inline-block;
+    color: whitesmoke;
+    padding-bottom: 0%;
+}
+
+#vid>#div2>h4{
+    font-size: 1.2rem;
+    margin-bottom: 0;
+}
+
+#vid>#div2>p{
+    color:#0050d9;
+    margin-top: 0;
+}
+
+#vid>#div3>img{
+    width: 5rem;
+    height: 4rem;
+    padding: 2rem 1rem 10px 3rem;
+}
+#tv1{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+#enjoy1{
+    width: 48%;
+    color: white;
+}
+#tv-video1{
+    width: 48%;
+    position: relative;
+}
+#enjoy1 > h2{
+    font-size: 2.5rem;
+}
+#enjoy1 > P{
+    font-size: 1.6rem;
+}
+#tv-video1>img{
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+#tv-video1>video{
+    position: absolute;
+    left: 20%;
+    top: 14%;
+    width: 61%;
+    z-index: 1;
+}
+#tv2{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+#tv-video2 > img{
+    height: 22rem;
+}
+#enjoy2{
+    color: white;
+}
+#enjoy2 >h2{
+    font-size: 3rem;
+}
+#enjoy2 > p{
+    font-size: 1.1rem;
+}
+#freq{
+    width: 80%;
+    margin: auto;
+    color: white;
+    margin-top: 3rem;
+}
+#freq > h1{
+    color: white;
+    font-size: 2.7rem;
+    margin-top: 4rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#freq > .faq-count > .que{
+    display: flex;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+    padding: 0rem 1rem;
+}
+#freq > .faq-count > .que > h3{
+    font-size: 1.5rem;
+}
+#freq > .faq-count > .ans{
+    background-color: #2d2d2d;
+    padding: 1rem 2rem 1rem 1rem;
+    margin-top: 3px;
+    position: relative;
+    display: none;
+}
+.faq-count{
+    margin-top: 8px;
+}
+#freq >.faq-count:hover .ans{
+    display: block;
+}
+#freq > .faq-count > .ans > p{
+    margin: 0;
+    font-size: 1.1rem;
+
+}
+#freq > p{
+    text-align: center;
+    margin-top: 3rem;
+    color: white;
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+#freq > #input{
+    display: flex;
+    justify-content: center;
+    margin-bottom: -6rem;
+}
+#input > input{
+    width: 20rem;
+    height: 3rem;
+    border-radius: 5px;
+    border: 2px solid gray;
+    background-color: transparent;
+    color: white;
+    font-size: 1rem;
+    padding-left: 2rem;
+    margin-right: 10px;
+}
+input::placeholder{
+    color: white;
+}
+
+#input > button{
+    margin-top: -2px;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 15rem;
+    height: 3.6rem;
+    background-color: red;
+    color: white;
+    font-size: 1.1rem;
+}
+footer{
+    padding: 40px 10rem;
+}
+footer > #foot{
+    display: flex;
+    margin-left: -2.5rem;
+}
+footer > p{
+     color: #acafb1;   
+}
+footer > p >a{
+    color: #acafb1;
+}
+ul{
+    list-style-type: none;
+}
+#foot ul> li > a{
+    color: #acafb1;
+    display: block;
+    padding: 0.5rem 1.7rem;
+}
+#lang1{
+    margin: 2rem;
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    padding-left: 46px;
+    padding-right: 6px;
+}
+option{
+    color: black;
+}
+footer>  p{
+    margin-left: 1.7rem;
+}
+#lang12 > .fa-language{
+    color: white;
+    font-size: 1.2rem;
+    top: 283.6rem;
+    left: 13rem;
+}
+
+@media(max-width:600px){
+    #tv{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+    #enjoy{
+        width: 100%;
+        text-align: center;
+    }
+    #enjoy>h2{
+        font-size: 2rem;
+    }
+    #enjoy>p{
+        font-size: 1,2rem;
+    }
+    #tv-video{
+        width: 100%;
+        position: relative;
+    }
+}
